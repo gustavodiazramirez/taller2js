@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 2 - Gustavo Díaz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mi Página</a>
+        </div>
+      </nav>
+      <center>
+        <h2>Galería de fotos</h2>
+        <p>Elige una sección para ver imagenes</p>
+      </center>
+      <br>
+      
+        <div class="tarjetas">
+          <div class="card" style="width: 25rem;">
+            <img src="img/imagen1.jpg" class="card-img-top"  id="buho"  alt="..." margin>
+            <div class="card-body">
+              <h5 class="card-title">Búhos</h5>
+              <p class="card-text">¿Sabias que...? A un grupo de búhos se le llama "parlamento".</p>
+              <a href="#" class="btn btn-primary" onclick="eliminarFoto()">Ver más</a>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 25rem;">
+            <img src="img/imagen2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Atardeceres</h5>
+              <p class="card-text">Hermosos y dañinos a la vista</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 25rem;">
+            <img src="img/imagen3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gatos</h5>
+              <p class="card-text">Los unicos animales que se domesticaron solos, probablemente</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+      <footer class="footer-pag">
+        <div class="parte-1">
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Curabitur vel sem sodales, mollis nisl quis, mattis felis. 
+                  Nulla aliquet ornare nisl sed consequat. Duis vehicula velit eu lacinia fringilla. 
+                  Nullam rhoncus ultrices diam non accumsan. 
+                  Cras a libero massa. Aenean eu efficitur dui. 
+                  Nam mollis tristique dui suscipit vestibulum. Proin.</p>
+            </div>
+            <div class="box">
+              <h2>AGRADECIMIENTOS</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Curabitur vel sem sodales, mollis nisl quis, mattis felis. 
+                Nulla aliquet ornare nisl sed consequat. Duis vehicula velit eu lacinia fringilla. 
+                Nullam rhoncus ultrices diam non accumsan. 
+                Cras a libero massa. Aenean eu efficitur dui. 
+                Nam mollis tristique dui suscipit vestibulum. Proin.</p>
+          </div>
+        </div>
+        <div class="parte-2">
+            <small>&copy; 2021 Copyrigth Ufro.cl</small>
+        </div>
+    </footer>
+    <script>
+      function eliminarFoto(){
+        document.getElementById(buho).remove;
+      }
+
+
+    </script>
+</body>
+</html>
